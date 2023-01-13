@@ -1,7 +1,7 @@
-package com.byndyusoft.restclient.templateclient;
+package com.byndyusoft.template.client;
 
-import com.byndyusoft.restclient.dto.TemplateRequestDto;
-import com.byndyusoft.restclient.dto.TemplateResponseDto;
+import com.byndyusoft.template.client.dto.TemplateRequestDto;
+import com.byndyusoft.template.client.dto.TemplateResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;

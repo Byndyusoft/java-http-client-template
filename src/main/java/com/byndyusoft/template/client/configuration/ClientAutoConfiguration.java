@@ -1,4 +1,4 @@
-package com.byndyusoft.restclient.configuration;
+package com.byndyusoft.template.client.configuration;
 
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.DefaultUriBuilderFactory;
 
 @Configuration
-@ComponentScan(basePackages = {"com.byndyusoft.restclient"})
+@ComponentScan(basePackages = {"com.byndyusoft"})
 @EnableAutoConfiguration
 @EnableConfigurationProperties(ClientProperties.class)
 public class ClientAutoConfiguration {

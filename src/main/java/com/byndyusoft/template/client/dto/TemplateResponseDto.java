@@ -1,4 +1,4 @@
-package com.byndyusoft.restclient.dto;
+package com.byndyusoft.template.client.dto;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

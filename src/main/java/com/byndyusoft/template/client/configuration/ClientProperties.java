@@ -1,4 +1,4 @@
-package com.byndyusoft.restclient.configuration;
+package com.byndyusoft.template.client.configuration;
 
 import java.time.Duration;
 import javax.validation.constraints.NotNull;
