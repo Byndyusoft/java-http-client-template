@@ -25,6 +25,12 @@ clients:
     baseUrl: localhost:8080     # required
 ```
 
+### 3. Inject client
+```
+@Autowired
+private {TemplateClient} client;
+```
+
 ## Maintainers
 
 - [@Byndyusoft/owners](https://github.com/orgs/Byndyusoft/teams/owners) <<github.maintain@byndyusoft.com>>
