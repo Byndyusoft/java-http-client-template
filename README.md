@@ -1,5 +1,5 @@
 # { service-name } rest api client
-this is api client for { service-name }
+This is api client for { service-name }
 
 ## Install
 
@@ -28,6 +28,8 @@ clients:
 ```
 @Autowired
 private TemplateClient client;
+
+client.getTemplateMethod("uriParam");
 ```
 
 ## Maintainers

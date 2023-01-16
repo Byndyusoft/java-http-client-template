@@ -1,4 +1,4 @@
-package com.byndyusoft.java.service.client.configuration;
+package com.byndyusoft.service.client.configuration;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.http.client.HttpClient;

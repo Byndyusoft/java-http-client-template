@@ -1,7 +1,7 @@
-package com.byndyusoft.java.service.client;
+package com.byndyusoft.service.client;
 
-import com.byndyusoft.java.service.client.dto.TemplateRequestDto;
-import com.byndyusoft.java.service.client.dto.TemplateResponseDto;
+import com.byndyusoft.service.client.dto.TemplateRequestDto;
+import com.byndyusoft.service.client.dto.TemplateResponseDto;
 import org.springframework.web.client.RestClientException;
 
 public interface TemplateClient {

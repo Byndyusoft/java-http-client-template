@@ -1,11 +1,11 @@
-package com.byndyusoft.java.service.client;
+package com.byndyusoft.service.client;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.when;
 
-import com.byndyusoft.java.service.client.dto.TemplateRequestDto;
-import com.byndyusoft.java.service.client.dto.TemplateResponseDto;
+import com.byndyusoft.service.client.dto.TemplateRequestDto;
+import com.byndyusoft.service.client.dto.TemplateResponseDto;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

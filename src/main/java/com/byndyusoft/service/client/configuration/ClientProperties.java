@@ -1,4 +1,4 @@
-package com.byndyusoft.java.service.client.configuration;
+package com.byndyusoft.service.client.configuration;
 
 import java.time.Duration;
 import javax.validation.constraints.NotBlank;
