@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.byndyusoft.restclient</groupId>
-    <artifactId>template-rest-client</artifactId>
+    <groupId>com.byndyusoft.java</groupId>
+    <artifactId>service-client</artifactId>
     <version>0.0.1</version>
 
-    <name>template-rest-client</name>
+    <name>service-client</name>
     <description>template description</description>
 
     <parent>
@@ -27,6 +27,7 @@
         <!-- common -->
         <micrometer.version>1.8.2</micrometer.version>
         <lombok.version>1.18.24</lombok.version>
+        <logbook-spring-boot-starter.version>2.11.0</logbook-spring-boot-starter.version>
     </properties>
 
     <dependencies>
@@ -43,6 +44,11 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.zalando</groupId>
+            <artifactId>logbook-spring-boot-starter</artifactId>
+            <version>${logbook-spring-boot-starter.version}</version>
         </dependency>
 
         <!-- jackson modules -->

@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.byndyusoft.template.client.configuration.ClientAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=configuration.com.byndyusoft.java.service.client.configuration.ClientAutoConfiguration

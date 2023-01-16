@@ -1,6 +1,7 @@
-package com.byndyusoft.template.client.configuration;
+package com.byndyusoft.java.service.client.configuration;
 
 import java.time.Duration;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import lombok.Data;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
@@ -10,13 +11,14 @@ import org.springframework.validation.annotation.Validated;
 
 @Data
 @Validated
-@ConfigurationProperties(prefix = "clients.templateClient")
+@ConfigurationProperties(prefix = "clients.service-name")
 public class ClientProperties {
-  @NestedConfigurationProperty
-  private PoolingHttpClientConnectionManager connectionManager;
-  private String baseUrl;
+  @NotBlank
+  private String rootUrl;
   @NotNull
   private Duration connectionTimeout;
   @NotNull
   private Duration readTimeout;
+  @NestedConfigurationProperty
+  private PoolingHttpClientConnectionManager connectionManager;
 }
